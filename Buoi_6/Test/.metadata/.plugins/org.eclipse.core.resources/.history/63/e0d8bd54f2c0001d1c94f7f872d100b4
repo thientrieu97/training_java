@@ -1,0 +1,20 @@
+package patternmatching;
+
+public class Testpatternmatching {
+
+	public static void main(String[] args) {
+		
+		//cach 1
+		Object object = " b";
+		if (object instanceof String);
+		var string1 = (String) object;
+		System.out.println(string1);
+		
+		//cach2
+		Object object = " a";
+		if (object instanceof String string2) {
+			System.out.println(string2);
+		}
+	}
+
+}

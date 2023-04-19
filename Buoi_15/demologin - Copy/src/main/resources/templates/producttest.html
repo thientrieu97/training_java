@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/admin/product/upload}" method="post" enctype="multipart/form-data" id="upload"
+      oninput="validateForm()">
+<div>
+    <label for="name">name:</label>
+    <input type="text" id="name" name="name"  />
+</div>
+<div>
+    <label for="price">price:</label>
+    <input type="text" id="price" name="price" />
+</div>
+<div>
+    <label for="quantity">quantity:</label>
+    <input type="text" id="quantity" name="quantity" />
+</div>
+
+<div class="form-group">
+    <label>Photo</label>
+    <<input type="file" id="image_file" onchange="fileChange()" accept="image/*" th:required="true">
+</div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <button type="reset" class="btn btn-primary">Cancel</button>
+</form>
+</body>
+</html>

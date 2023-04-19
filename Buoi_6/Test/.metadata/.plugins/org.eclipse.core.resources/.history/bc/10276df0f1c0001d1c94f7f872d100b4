@@ -1,0 +1,14 @@
+package patternmatching;
+
+public class Testpatternmatching {
+
+	public static void main(String[] args) {
+		
+		//cach 1
+		Object object = "1";
+		if (object instanceof String);
+		var string = (String) object;
+		System.out.println(string);
+	}
+
+}

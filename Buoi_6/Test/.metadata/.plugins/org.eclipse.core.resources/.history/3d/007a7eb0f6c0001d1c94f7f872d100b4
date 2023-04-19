@@ -1,0 +1,7 @@
+package sealedclass;
+
+import sealedclass.TestSealedClass.Dog;
+
+sealed interface ITestSealedClass permits Dog{
+	void run();
+}

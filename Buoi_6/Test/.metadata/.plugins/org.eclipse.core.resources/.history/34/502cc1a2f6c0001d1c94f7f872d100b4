@@ -1,0 +1,13 @@
+package sealedclass;
+
+public class TestSealedClass {
+
+	public static void main(String[] args) {
+		
+		final class implements Runnable{
+			
+		}
+
+	}
+
+}

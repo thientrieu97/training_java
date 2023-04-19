@@ -1,0 +1,14 @@
+package textblocks;
+
+public class TestTextBlocks {
+
+	public static void main(String[] args) {
+		String demo = "Hoang Phuc International"
+				+ "/n"
+				+ "kafak/n"
+				+ "kafak/n";
+		
+		System.out.println(demo);
+	}
+
+}

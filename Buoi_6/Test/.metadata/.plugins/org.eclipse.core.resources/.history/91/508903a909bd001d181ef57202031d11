@@ -1,0 +1,24 @@
+package lamda;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bt1 {
+
+	public static void main(String[] args) {
+		
+		List<Integer> numbers = new ArrayList<Integer>();
+		
+		numbers.add(2);
+		numbers.add(10);
+		numbers.add(8);
+		numbers.add(7);
+		numbers.add(99);
+		numbers.add(7);
+		
+		numbers.forEach((i) -> {System.out.println(i);} );
+
+
+	}
+
+}
